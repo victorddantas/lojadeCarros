@@ -1,0 +1,104 @@
+
+
+.pgbr-corousel-item {
+    height: 300px;
+}
+
+#navb {
+    margin-top: 30px;
+    padding: 70px 80px;
+
+}
+
+.card-deck {
+
+    display: flex;
+}
+
+.w300 {
+    max-width: 300px;
+    margin-inline-start: 20px;
+    margin-top: 20px;
+
+    
+}
+
+.logo {
+
+    width: 100px;
+    cursor: pointer;
+}
+
+.nbar {
+    padding: 40px;
+    text-align: end;
+}
+
+#nlogo {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.login {
+
+    margin-left: 20px;
+}
+
+.cardAbout {
+    width: 100%;
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.cardAbout img {
+    width: 100px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.endFooter {
+   justify-content: center;
+}
+
+.stFooter {
+    color: #ffff;
+}
+
+@media (max-width: 800px) {
+    
+    .card-deck {
+
+    display: grid;
+    }
+    
+    .pgbr-corousel-item {
+        height: 200px;
+    }
+
+    #cimg {
+
+        width: 500px;
+    }
+    
+    .cardAbout img {
+        width: 100px;
+    }
+
+}
+
+
+@media (max-width: 1100px) {
+   
+    .cardAbout {
+       overflow: scroll;
+        
+    }
+}
